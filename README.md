@@ -19,3 +19,9 @@ In the tests directory,there is server_integration_test.go file that is an integ
 ### Unit Tests
 
 In the internal/helpers directory there is a stream_test.go file. It tests the ProcessAudioStream function that converts the WAV file to a FLAC file and sends it through the websocket connection.
+
+In this test,the Websocket connection,the execution command for `ffmpeg` are all mocked so all edge cases are taken care of.
+
+### Manual Testing
+
+To test the service manually I have written a client.js file that mocks a client sending a WAV file to the server in a Websocket connection.
