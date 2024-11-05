@@ -24,4 +24,4 @@ In this test,the Websocket connection,the execution command for `ffmpeg` are all
 
 ### Manual Testing
 
-To test the service manually I have written a client.js file that mocks a client sending a WAV file to the server in a Websocket connection.
+To test the service manually I have written a client.js file that mocks a client sending a WAV file to the server through a Websocket connection.
