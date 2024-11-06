@@ -31,3 +31,5 @@ To test the service manually I have written a client.js file that mocks a client
 Run `npm i` to install the dependencies for the client.
 
 In the case you have Node on your machine,make sure you are in the root directory and run `node client.js`. This fires up a Websocket client and connects to the server and sends a WAV file called `ip.wav` present in the root directory and in a matter of seconds we can see a flac file called `op.flac` present in the directory indicating the audio conversion was successfull.
+
+There are 3 example audio files input.wav,ip.wav and audio.wav so if you want to change the audio file these are the options.
