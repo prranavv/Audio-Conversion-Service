@@ -6,6 +6,8 @@ To run this application,first clone this repository onto your machine and ensure
 
 Ensure the docker daemon is running and run `docker compose up --build`
 
+If you dont want to run it through docker,you can run the binary present in the repository. Run the following command `bin/app` to run the app locally.
+
 ## API Endpoints
 
 **/stream** - This endpoint recieves a WAV file through a Websocket connection and converts it into a FLAC file and is sent to the client via the websocket connection.
