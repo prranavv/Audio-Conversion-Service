@@ -3,7 +3,7 @@ const WebSocket = require('ws');
 const path = require('path');
 
 const wavFilePath = path.join(__dirname, 'ip.wav');
-const flacFilePath = path.join(__dirname, 'opfinal.flac');
+const flacFilePath = path.join(__dirname, 'op.flac');
 const flacWriteStream = fs.createWriteStream(flacFilePath);
 
 const ws = new WebSocket('http://localhost:8080/stream');

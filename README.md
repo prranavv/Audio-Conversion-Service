@@ -24,4 +24,8 @@ In this test,the Websocket connection,the execution command for `ffmpeg` are all
 
 ### Manual Testing
 
-To test the service manually I have written a client.js file that mocks a client sending a WAV file to the server through a Websocket connection.
+To test the service manually I have written a client.js file that mocks a client sending a WAV file to the server through a Websocket connection.Make sure you have a Javascript runtime on your machine like node,deno or bun to run the JS file.
+
+Run `npm i` to install the dependencies for the client.
+
+In the case you have Node on your machine,make sure you are in the root directory and run `node client.js`. This fires up a Websocket client and connects to the server and sends a WAV file called `ip.wav` present in the root directory and in a matter of seconds we can see a flac file called `op.flac` present in the directory indicating the audio conversion was successfull.
